@@ -9,7 +9,7 @@ function Home() {
   return (
     <section name="home" className="w-full h-[calc(100vh-64px)]">
       {/* container */}
-      <div className="container h-full flex items-center justify-center flex-col mt-10 md:mt-0 md:justify-between md:flex-row">
+      <div className="container h-full flex items-center justify-center flex-col mt-16 md:mt-0 md:justify-between md:flex-row">
         {/* left side */}
         <div className="flex items-center flex-col mt-12 md:mt-0 md:items-start md:w-1/2">
           <h2 className="text-secondary font-semibold text-2xl md:text-3xl">
@@ -48,7 +48,7 @@ function Home() {
           </div>
         </div>
 
-        <div className="flex items-center flex-col mt-12 md:mt-0">
+        <div className="flex items-center flex-col mt-16 md:mt-0">
           {/* image container */}
           <div className="w-full md:-mt-10 ">
             <img

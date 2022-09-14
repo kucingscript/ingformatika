@@ -6,8 +6,11 @@ function Gallery() {
   const [imgs, setImgs] = useState(images);
 
   return (
-    <section name="gallery" className="max-w-h-screen w-full md:h-screen">
-      <h1 className="text-center text-5xl text-primary font-bold tracking-wider my-12 md:my-0">
+    <section
+      name="gallery"
+      className="max-w-h-screen w-full md:h-screen mt-16 md:mt-0"
+    >
+      <h1 className="text-center text-5xl text-primary font-bold tracking-wider mb-12 md:mb-0">
         Galeri
       </h1>
       <div className="container w-full h-full flex justify-center items-center">
