@@ -8,7 +8,7 @@ function Gallery() {
   return (
     <section
       name="gallery"
-      className="max-w-h-screen w-full md:h-screen mt-16 md:mt-0"
+      className="max-w-h-screen w-full md:h-screen pt-16 md:pt-0"
     >
       <h1 className="text-center text-5xl text-primary font-bold tracking-wider mb-12 md:mb-0">
         Galeri

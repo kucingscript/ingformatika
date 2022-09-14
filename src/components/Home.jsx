@@ -48,7 +48,7 @@ function Home() {
           </div>
         </div>
 
-        <div className="flex items-center flex-col mt-16 md:mt-0">
+        <div className="flex items-center flex-col mt-12 md:mt-0">
           {/* image container */}
           <div className="w-full md:-mt-10 ">
             <img
@@ -58,7 +58,7 @@ function Home() {
             />
           </div>
           <p className="text-neutral-content text-sm -mt-6">
-            Potret pengoding handal
+            *Potret pengoding handal
           </p>
         </div>
       </div>
