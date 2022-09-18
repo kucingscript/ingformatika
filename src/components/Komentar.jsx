@@ -9,7 +9,7 @@ function komentar() {
     <section name="komentar" className="min-h-screen w-full md:h-screen">
       {/* Container */}
       <div className="container w-full h-full">
-        <h1 className="text-center text-5xl text-primary font-bold tracking-wider mt-12 md:mt-0">
+        <h1 className="text-center text-5xl text-primary font-bold tracking-wider mt-24 md:mt-0">
           Komentar
         </h1>
         <p className="text-center text-neutral-content text-sm">
@@ -28,7 +28,7 @@ function komentar() {
                     <img
                       src={img.img}
                       alt={img.name}
-                      className="w-16 h-16 rounded-full object-cover md:w-20 md:h-20"
+                      className="w-16 h-16 rounded-full object-cover md:w-20 md:h-20 border-2 border-primary"
                     />
                   </figure>
                   <div className="card-body -mt-5 text-center">
