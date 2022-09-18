@@ -9,7 +9,7 @@ function Request() {
     <section name="request" className="h-screen w-full">
       {/* Container */}
       <div className="container w-full h-full flex justify-center items-center flex-col">
-        <h1 className="text-center text-4xl text-primary font-bold tracking-wider my-12 md:text-5xl">
+        <h1 className="text-center text-4xl text-primary font-bold tracking-wider my-16 md:text-5xl">
           Weird Request
         </h1>
         {/* Faq container */}

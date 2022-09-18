@@ -2,7 +2,7 @@ import { Link } from "react-scroll";
 
 import { FaCodeBranch, FaBug } from "react-icons/fa";
 
-import HeroImages from "../assets/hero.webp";
+import HeroImages from "../assets/hero.svg";
 
 function Beranda() {
   return (
@@ -47,16 +47,16 @@ function Beranda() {
           </div>
         </div>
 
-        <div className="flex items-center flex-col mt-12 md:mt-0">
+        <div className="flex items-center flex-col mt-12 md:mt-6">
           {/* image container */}
-          <div className="w-full md:-mt-10 ">
+          <div className="w-full ">
             <img
               src={HeroImages}
               alt="Hero Images"
-              className="w-96 h-auto object-cover"
+              className="w-64 h-auto object-cover md:w-80"
             />
           </div>
-          <p className="text-neutral-content text-sm -mt-6">
+          <p className="text-neutral-content text-sm">
             *Potret pengoding handal
           </p>
         </div>

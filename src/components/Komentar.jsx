@@ -22,7 +22,7 @@ function komentar() {
               return (
                 <div
                   className="card shadow-2xl m-5 pt-5 rounded-xl"
-                  index={index}
+                  key={index}
                 >
                   <figure>
                     <img

@@ -1,8 +1,9 @@
-import { useState } from "react";
+import { useState, useEffect } from "react";
 
 import { Link } from "react-scroll";
+import { themeChange } from "theme-change";
 
-import { BiMenuAltLeft, BiBell } from "react-icons/bi";
+import { BiMenuAltLeft } from "react-icons/bi";
 import { MdOutlineCloseFullscreen } from "react-icons/md";
 
 function Navbar() {
@@ -12,8 +13,13 @@ function Navbar() {
   const lists = [
     { name: "beranda", link: "beranda" },
     { name: "komentar", link: "komentar" },
+    { name: "stack", link: "stack" },
     { name: "request", link: "request" },
   ];
+
+  useEffect(() => {
+    themeChange(false);
+  }, []);
 
   return (
     <nav className="navbar shadow-xl">
@@ -57,20 +63,24 @@ function Navbar() {
 
       {/* Center */}
       <div className="navbar-center">
-        <button className="btn btn-ghost text-primary text-xl">
-          Ingformatika{" "}
+        <button className="btn btn-ghost text-primary text-lg md:text-xl">
+          Ingformatika
           <span className="text-neutral-content"> &#60; / &#62;</span>
         </button>
       </div>
 
       {/* Right */}
       <div className="navbar-end">
-        <button className="btn btn-ghost btn-circle">
-          <div className="indicator">
-            <BiBell className="w-5 h-5" />
-            <span className="badge badge-xs badge-primary indicator-item"></span>
-          </div>
-        </button>
+        <button
+          data-set-theme="dracula"
+          data-act-class="ACTIVECLASS"
+          className="btn btn-xs btn-circle bg-[#FF7AC6] hover:bg-[#FF7AC6]"
+        ></button>
+        <button
+          data-set-theme="night"
+          data-act-class="ACTIVECLASS"
+          className="btn btn-xs btn-circle bg-[#3ABFF8] hover:bg-[#3ABFF8] mx-2 md:mx-4"
+        ></button>
       </div>
     </nav>
   );

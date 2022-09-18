@@ -5,6 +5,13 @@ import img4 from "../assets/4.webp";
 import img5 from "../assets/5.webp";
 import img6 from "../assets/6.webp";
 
+import img7 from "../assets/html.webp";
+import img8 from "../assets/css.webp";
+import img9 from "../assets/tailwind.webp";
+import img10 from "../assets/node.webp";
+import img11 from "../assets/js.webp";
+import img12 from "../assets/react.webp";
+
 export const dataImages = [
   {
     img: img1,
@@ -51,4 +58,13 @@ export const dataFaq2 = [
   { main: "mas, AC nya kok gak nyala", sub: "lu kan IT" },
   { main: "mas, hack-in fb mantan gwejh dong", sub: "lu kan IT" },
   { main: "mas, mesin cucinya ga bisa nih", sub: "lu kan IT" },
+];
+
+export const dataStack = [
+  { img: img7, alt: "HTMl" },
+  { img: img8, alt: "CSS" },
+  { img: img9, alt: "Tailwind" },
+  { img: img10, alt: "Node" },
+  { img: img11, alt: "JS" },
+  { img: img12, alt: "React" },
 ];
