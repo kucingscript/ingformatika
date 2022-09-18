@@ -1,4 +1,4 @@
-import React, { useState } from "react";
+import { useState } from "react";
 
 import { Link } from "react-scroll";
 
@@ -10,11 +10,9 @@ function Navbar() {
   const handleClick = () => setNav(!nav);
 
   const lists = [
-    { name: "home", link: "home" },
-    { name: "gallery", link: "gallery" },
-    { name: "support", link: "support" },
-    { name: "platforms", link: "platforms" },
-    { name: "pricing", link: "pricing" },
+    { name: "beranda", link: "beranda" },
+    { name: "komentar", link: "komentar" },
+    { name: "request", link: "request" },
   ];
 
   return (

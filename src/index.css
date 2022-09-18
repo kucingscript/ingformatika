@@ -6,6 +6,6 @@
 
 @layer base {
   body {
-    @apply font-[Poppins]
+    font-family: Poppins, sans-serif;
   }
 }

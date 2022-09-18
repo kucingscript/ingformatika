@@ -1,14 +1,21 @@
-import React from "react";
+import { lazy, Suspense } from "react";
 import Navbar from "./components/Navbar";
-import Home from "./components/Home";
-import Gallery from "./components/Gallery";
+import Beranda from "./components/Beranda";
+import ScrollTop from "./components/ScrollTop";
+
+const Komentar = lazy(() => import("./components/Komentar"));
+const Request = lazy(() => import("./components/Request"));
 
 function App() {
   return (
     <>
       <Navbar />
-      <Home />
-      <Gallery />
+      <Beranda />
+      <ScrollTop />
+      <Suspense fallback={<div>Loading...</div>}>
+        <Komentar />
+        <Request />
+      </Suspense>
     </>
   );
 }

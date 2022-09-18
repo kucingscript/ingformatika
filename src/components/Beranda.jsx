@@ -1,13 +1,12 @@
-import React, { useState } from "react";
 import { Link } from "react-scroll";
 
 import { FaCodeBranch, FaBug } from "react-icons/fa";
 
 import HeroImages from "../assets/hero.webp";
 
-function Home() {
+function Beranda() {
   return (
-    <section name="home" className="w-full h-[calc(100vh-64px)]">
+    <section name="beranda" className="w-full min-h-screen md:h-screen">
       {/* container */}
       <div className="container h-full flex items-center justify-center flex-col mt-16 md:mt-0 md:justify-between md:flex-row">
         {/* left side */}
@@ -27,7 +26,7 @@ function Home() {
           {/* button */}
           <div className="flex w-full justify-center space-x-2 mt-4 items-center md:justify-start">
             {/* Left */}
-            <Link to="gallery" smooth={true} duration={500}>
+            <Link to="komentar" smooth={true} duration={500}>
               <button className="btn btn-sm md:btn-md">
                 Mengoding
                 <span className="ml-2">
@@ -37,7 +36,7 @@ function Home() {
             </Link>
 
             {/* Right */}
-            <Link to="gallery" smooth={true} duration={500}>
+            <Link to="komentar" smooth={true} duration={500}>
               <button className="btn btn-primary btn-sm md:btn-md">
                 Menghacker
                 <span className="ml-2">
@@ -66,4 +65,4 @@ function Home() {
   );
 }
 
-export default Home;
+export default Beranda;

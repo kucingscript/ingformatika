@@ -5,7 +5,7 @@ import img4 from "../assets/4.webp";
 import img5 from "../assets/5.webp";
 import img6 from "../assets/6.webp";
 
-export const images = [
+export const dataImages = [
   {
     img: img1,
     name: "hecker",
@@ -36,4 +36,19 @@ export const images = [
     name: "begula",
     text: "dunia ini tidak salah, yang salah adalah pemerint...",
   },
+];
+
+export const dataFaq1 = [
+  { main: "mas, hp gwejh kok suka restart sendiri", sub: "lu kan IT" },
+  {
+    main: "mas, komputer nomor 6 macet",
+    sub: "lu kan IT",
+  },
+  { main: "mas, keyboard gwejh kok kebalik ya", sub: "lu kan IT" },
+];
+
+export const dataFaq2 = [
+  { main: "mas, AC nya kok gak nyala", sub: "lu kan IT" },
+  { main: "mas, hack-in fb mantan gwejh dong", sub: "lu kan IT" },
+  { main: "mas, mesin cucinya ga bisa nih", sub: "lu kan IT" },
 ];
