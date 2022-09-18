@@ -9,7 +9,7 @@ function komentar() {
     <section name="komentar" className="min-h-screen w-full md:h-screen">
       {/* Container */}
       <div className="container w-full h-full">
-        <h1 className="text-center text-5xl text-primary font-bold tracking-wider">
+        <h1 className="text-center text-5xl text-primary font-bold tracking-wider mt-12 md:mt-0">
           Komentar
         </h1>
         <p className="text-center text-neutral-content text-sm">
