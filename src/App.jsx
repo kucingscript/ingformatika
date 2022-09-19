@@ -7,6 +7,7 @@ import ScrollTop from "./components/ScrollTop";
 const Komentar = lazy(() => import("./components/Komentar"));
 const Stack = lazy(() => import("./components/Stack"));
 const Request = lazy(() => import("./components/Request"));
+const Footer = lazy(() => import("./components/Footer"));
 
 function App() {
   return (
@@ -18,6 +19,7 @@ function App() {
         <Komentar />
         <Stack />
         <Request />
+        <Footer />
       </Suspense>
     </>
   );
