@@ -21,7 +21,7 @@ function Footer() {
         {/* Left */}
         <div>
           <Link to="beranda" smooth={true} duration={500}>
-            <button className="btn btn-ghost text-primary text-lg md:text-xl">
+            <button className="btn btn-ghost text-primary text-xl">
               Ingformatika
               <span className="text-neutral-content"> &#60; / &#62;</span>
             </button>
@@ -38,7 +38,7 @@ function Footer() {
                 rel={"noopener noreferrer"}
                 key={index}
               >
-                <button className="btn btn-ghost btn-circle btn-md hover:bg-primary hover:text-white ">
+                <button className="btn btn-ghost btn-circle btn-lg hover:bg-primary hover:text-white ">
                   {item.item}
                 </button>
               </a>
