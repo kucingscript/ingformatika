@@ -15,6 +15,7 @@ function Navbar() {
     { name: "komentar", link: "komentar" },
     { name: "stack", link: "stack" },
     { name: "request", link: "request" },
+    { name: "contact", link: "contact" },
   ];
 
   useEffect(() => {
@@ -28,7 +29,7 @@ function Navbar() {
         <div className="dropdown">
           <label
             tabIndex={0}
-            className="btn btn-ghost btn-circle"
+            className="btn btn-ghost btn-circle btn-sm"
             onClick={handleClick}
           >
             {!nav ? (
@@ -42,7 +43,7 @@ function Navbar() {
             className={
               !nav
                 ? "hidden"
-                : "menu menu-compact dropdown-content space-y-8 mt-4 px-4 backdrop-blur-sm"
+                : "menu menu-compact dropdown-content space-y-8 mt-4 px-2 backdrop-blur-sm"
             }
           >
             {lists.map((list, index) => {

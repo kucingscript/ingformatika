@@ -15,7 +15,7 @@ function Footer() {
   ];
 
   return (
-    <footer className="footer p-4 bg-neutral text-neutral-content">
+    <footer className="footer p-4 bg-neutral text-neutral-content md:mt-16">
       {/* Container */}
       <div className="container flex justify-between items-center flex-col space-y-2 md:flex-row md:space-y-0">
         {/* Left */}
@@ -48,7 +48,10 @@ function Footer() {
 
         {/* Right */}
         <div>
-          <p>Copyright © 2022 - All right reserved</p>
+          <p>
+            Build with
+            <span className="text-primary"> &#10084;</span> by Kucingscript
+          </p>
         </div>
       </div>
     </footer>
