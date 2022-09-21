@@ -10,18 +10,18 @@ function Contact() {
         <form
           method="POST"
           action={import.meta.env.VITE_ENDPOINT}
-          className="flex flex-col space-y-4 w-full text-neutral px-3 md:w-1/2 md:px-0"
+          className="flex flex-col space-y-4 w-full text-white px-3 md:w-1/2 md:px-0"
         >
           <input
             type="text"
-            className="p-4 rounded-md outline-none"
+            className="p-4 rounded-md outline-none bg-neutral"
             name="name"
             placeholder="Enter your name"
             required
           />
           <textarea
             rows="10"
-            className="rounded-md outline-none p-4"
+            className="rounded-md outline-none p-4 bg-neutral"
             name="message"
             placeholder="Enter your message here"
             required
