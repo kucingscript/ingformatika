@@ -64,7 +64,7 @@ function Navbar() {
 
       {/* Center */}
       <div className="navbar-center">
-        <button className="btn btn-ghost text-primary text-lg md:text-xl">
+        <button className="btn btn-ghost text-primary text-xl">
           Ingformatika
           <span className="text-neutral-content"> &#60; / &#62;</span>
         </button>

@@ -15,7 +15,7 @@ function Footer() {
   ];
 
   return (
-    <footer className="footer p-4 bg-neutral text-neutral-content md:mt-16">
+    <footer className="footer p-4 bg-neutral text-neutral-content mt-20">
       {/* Container */}
       <div className="container flex justify-between items-center flex-col space-y-2 md:flex-row md:space-y-0">
         {/* Left */}
