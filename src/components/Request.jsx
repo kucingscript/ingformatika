@@ -1,10 +1,6 @@
-import { useState } from "react";
 import { dataFaq1, dataFaq2 } from "./data";
 
 function Request() {
-  const [faq1, setFaq1] = useState(dataFaq1);
-  const [faq2, setFaq2] = useState(dataFaq2);
-
   return (
     <section name="request" className="h-screen w-full">
       {/* Container */}
@@ -16,7 +12,7 @@ function Request() {
         <div className="flex justify-between flex-col text-sm md:items-center md:text-[16px] md:flex-row md:space-x-24">
           {/* Left side */}
           <div className="flex flex-col">
-            {faq1.map((faq, index) => {
+            {dataFaq1.map((faq, index) => {
               return (
                 <div
                   tabIndex={0}
@@ -35,7 +31,7 @@ function Request() {
 
           {/* Right Side */}
           <div className="flex flex-col">
-            {faq2.map((faq, index) => {
+            {dataFaq2.map((faq, index) => {
               return (
                 <div
                   tabIndex={0}

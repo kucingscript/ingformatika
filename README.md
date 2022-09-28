@@ -1,3 +1,3 @@
 # Ingformatika
 
-> :warning: **Site on progress**
+React + Tailwind

@@ -1,10 +1,6 @@
-import { useState } from "react";
-
 import { dataImages } from "./data";
 
 function komentar() {
-  const [imgs, setImgs] = useState(dataImages);
-
   return (
     <section name="komentar" className="min-h-screen w-full md:h-screen">
       {/* Container */}
@@ -18,7 +14,7 @@ function komentar() {
         <div className="flex justify-center items-center mt-12">
           {/* Grid container */}
           <div className="grid grid-cols-1 md:grid-cols-3">
-            {imgs.map((img, index) => {
+            {dataImages.map((img, index) => {
               return (
                 <div
                   className="card shadow-2xl m-5 pt-5 rounded-xl"

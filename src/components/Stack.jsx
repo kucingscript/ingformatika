@@ -1,9 +1,6 @@
-import { useState } from "react";
 import { dataStack } from "./data";
 
 function Stack() {
-  const [datas, setDatas] = useState(dataStack);
-
   return (
     <section name="stack" className="h-screen w-full">
       {/* Container */}
@@ -17,7 +14,7 @@ function Stack() {
 
         {/* Grid container */}
         <div className="w-full grid grid-cols-2 gap-x-6 gap-y-12 place-items-center md:gap-y-16 md:grid-cols-3">
-          {datas.map((data, index) => {
+          {dataStack.map((data, index) => {
             return (
               <img
                 src={data.img}
