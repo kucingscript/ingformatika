@@ -10,7 +10,7 @@ function Contact() {
         <form
           method="POST"
           action={import.meta.env.VITE_ENDPOINT}
-          className="flex flex-col space-y-4 w-full text-white px-3 md:w-1/2 md:px-0"
+          className="flex flex-col space-y-4 w-full text-white px-3 md:w-2/3 md:px-0"
         >
           <input
             type="text"
