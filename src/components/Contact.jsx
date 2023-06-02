@@ -10,7 +10,7 @@ function Contact() {
         <form
           method="POST"
           action={import.meta.env.VITE_ENDPOINT}
-          className="flex flex-col space-y-4 w-full text-white px-3 md:w-2/3 md:px-0"
+          className="flex flex-col space-y-4 w-full text-white px-3 md:w-2/3 xl:w-1/2 md:px-0"
         >
           <input
             type="text"
@@ -26,7 +26,10 @@ function Contact() {
             placeholder="Enter your message here"
             required
           ></textarea>
-          <button type="submit" className="btn btn-primary w-1/2 mx-auto">
+          <button
+            type="submit"
+            className="btn btn-primary w-1/2 md:w-1/3 mx-auto"
+          >
             Submit
           </button>
         </form>

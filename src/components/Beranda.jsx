@@ -8,7 +8,7 @@ function Beranda() {
   return (
     <section name="beranda" className="w-full min-h-screen md:h-screen">
       {/* container */}
-      <div className="container h-full flex items-center justify-center flex-col mt-16 md:mt-0 md:justify-between md:flex-row">
+      <div className="container h-full flex items-center justify-center flex-col mt-16 md:mt-0 px-0 xl:px-20 md:justify-between md:flex-row">
         {/* left side */}
         <div className="flex items-center flex-col mt-12 md:mt-0 md:items-start md:w-1/2">
           <h2 className="text-secondary font-semibold text-2xl md:text-3xl">
@@ -17,7 +17,7 @@ function Beranda() {
           <h1 className="text-primary font-bold tracking-wider text-4xl md:text-5xl">
             Informatika
           </h1>
-          <p className="text-neutral-content pt-2 px-4 text-center text-sm leading-6 md:px-0 md:text-justify md:text-md">
+          <p className="text-neutral-content pt-2 px-4 text-center text-sm leading-6 md:px-0 md:text-justify md:text-md xl:text-[16px]">
             Teknik Informatika merupakan bidang ilmu yang mempelajari bagaimana
             menggunakan teknologi komputer secara optimal guna menangani masalah
             transformasi atau pengolahan data dengan proses logika.

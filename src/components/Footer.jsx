@@ -5,7 +5,7 @@ import { SiGmail } from "react-icons/si";
 
 function Footer() {
   const socialMedia = [
-    { item: <FaGithub />, link: "https://github.com/rasyidzkun/" },
+    { item: <FaGithub />, link: "https://github.com/kucingscript/" },
     {
       item: <FaFacebookF />,
       link: "https://www.facebook.com/RasyidzScreamo.221016/",
