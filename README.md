@@ -1,3 +1,0 @@
-# Ingformatika
-
-React + Tailwind
